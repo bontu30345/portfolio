@@ -1,0 +1,300 @@
+#{
+    margin: o ;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+padding: 35px 12%;
+background-color:black;
+backdrop-filter: blur(10px);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100px;
+}
+.logo{
+    font-size: 100px;
+    color: azure;
+    font-weight: 500px;
+    transition: 0.4s ease;
+}
+.logo:hover{
+    color:brown;
+    text-shadow: 0 0 25px brown,
+                0 0 40px  brown;
+    transform: scale(1:1);
+}
+.span{
+    color: brown;
+}
+.navbar a{
+font-size: 18px;
+color: azure;
+font-weight: 500px;
+margin: 0 20px;
+border-bottom: 3px solid transparent;
+transition: o.4s ease;
+}
+.navbar a :hover,
+.navbar a .active{
+    color: brown;
+    border-bottom: 3px solid brown;
+}
+
+.contact{
+    padding: 10px 28px;
+    background-color: azure;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+.contact:hover{
+    background-color: brown;
+    box-shadow: 0 0 25px brown;
+    color: azure;
+
+}
+.home{
+    width: 100px;
+    min-height:100vh; 
+    background-color: rgb(241,241,241); 
+    display: flex;
+    align-items: center;
+    gap:7em;
+    padding: 30px 12% 0;
+}
+.home-content {
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 42px;
+}
+.home-content h1 {
+    font-size:62px;
+    line-height:1.2;
+
+}
+.home-content p{
+   font-size:18px;
+   margin:25px 0 30px;
+}
+.btn-box{
+    width :345px;
+    display:flex;
+    gap:2em;
+}
+.btn-1{
+    padding:15px 28px;
+    background-color: black;
+    color:azure;
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size:18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: azure;
+    color:black;
+    border:2px solid black;
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: brown;
+    color:azure;
+    border:2px solid black;
+    border-radius: 8px;
+    font-size:18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.4s ease;
+    cursor:pointer;
+}
+.btn-2:hover{
+    background-color: azure;
+    color: brown;
+}
+.img-box img{
+    border-radius: 50%;
+    width:550px;
+}
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-thumb{
+background-color: brown;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 12% 8%;
+    gap:10em;
+    background:black;
+}
+.about-img img{
+    position:relative;
+    width:550px;
+    box-shadow: 0 0 25px brown,
+                0 0 50px brown;
+    border-radius: 50%;
+}
+.about-content h2{
+    text-align:left;
+    color:azure;
+    font: size 42px;
+}
+.about-content h3{
+    font-size: 62px;
+    color:azure;
+}
+.about-content p{
+    color:azure;
+    font-size: 20px;
+    margin:2em  0 3em;
+}
+.Education {
+    display: flex;
+    flex-direction: column; /* Change to column for vertical layout */
+    justify-content: center;
+    align-items: center;
+    padding: 10% 8%;
+    background: black;
+    color: white; /* Text color for better visibility */
+    border-radius: 5px; /* Optional: Rounded corners */
+    text-align: center; /* Center text */
+}
+h2 {
+    margin-bottom: 1em; /* Space below the heading */
+}
+.contact-form h2{
+   text-align: center;
+   margin-top: 3em;
+   margin-bottom: 1em;
+   font-size: 36px;
+}
+.contact-form form{
+    max-width: 50em;
+    margin:1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Change to 100% */
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer.social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: azure;
+    display: flex; /* Add flex for alignment */
+    justify-content: center; /* Center the social icons */
+}
+
+.footer.social a {
+    font-size: 24px;
+    color: azure;
+    border: 2px solid brown;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px brown, 0 0 10px brown;
+    transition: 0.4s ease;
+}
+
+.footer.social a:hover {
+    transform: scale(1.2) translateY(-10px); /* Correct transform property */
+    color: brown;
+    border: 2px solid brown;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: azure;
+    border-bottom: 3px solid transparent;
+    transition: 0.4s ease;
+}
+
+.footer ul li a:hover {
+    border-bottom: 3px solid brown; /* Correct hover selector */
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0.15px;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: azure;
+}
+.social {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    align-items: center; /* Align items vertically */
+    padding: 20px 0; /* Add some padding */
+}
+
+.social a {
+    display: inline-block; /* Make the links inline */
+    margin: 0 10px; /* Add spacing between icons */
+    width: 40px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    border: 2px solid brown; /* Border around icons */
+    border-radius: 50%; /* Make them circular */
+    box-shadow: inset 0 0 10px brown, 0 0 10px brown; /* Shadow effect */
+    transition: 0.4s ease; /* Smooth transition for hover effect */
+}
+
+.social a:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+    border-color: brown; /* Change border color on hover */
+    background-color: rgba(255, 165, 0, 0.2); /* Add background on hover */
+}
